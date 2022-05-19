@@ -36,8 +36,19 @@ console.log(addNum(-1,1))
 
 function upperCase (letter,number) {
   
+  let uppercaseLetter = letter.toUpperCase();
+  
+  exclamation = '!'.repeat(number)
+  
+
+  return output= uppercaseLetter+exclamation
+
+
 
 }
+
+console.log (upperCase('disater',5))
+console.log (upperCase('error',10))
 
 // change the exported value to be the name of the function you defined
 module.exports = {
