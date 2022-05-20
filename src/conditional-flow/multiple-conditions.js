@@ -20,7 +20,7 @@ function isHelloOrGoodbye (val1) {
   if (val1==="Hello" || val1==="Goodbye") return true 
 
 }
-console.log("hello",isHelloOrGoodbye("Hello"))
+
 
 // This function should return a string that describes the provided age value. The
 // table below shows for each range of age values what string should be returned.
