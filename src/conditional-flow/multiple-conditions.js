@@ -38,7 +38,7 @@ function getAgeDescription (age) {
 
   // TODO: write code in this function body to pass the tests
 
-  if (age=0) {return "Baby"}
+  if (age===0) {return "Baby";}
   else if (age<=4) {return "Toddler";}
   else if (age<=12) {return "Child";}
   else if (age<=19) {return "Teenager";}
